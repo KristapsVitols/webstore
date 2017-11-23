@@ -4,7 +4,7 @@ let user_id;
 function ajaxCall() {
 	let inputValue = $('#searchBar').val();
 	if(inputValue != "") {
-		$.post('/store/inc/ajax/search.php', {inputValue: inputValue}, function(data) {
+		$.post('inc/ajax/search.php', {inputValue: inputValue}, function(data) {
 			let newData = JSON.parse(data);
 			$('div').removeClass('showpage');
 			if(newData.length == 0) {

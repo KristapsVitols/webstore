@@ -1,9 +1,9 @@
 <?php
 //Connect to DB PDO
 define("DB_HOST", 'localhost');
-define("DB_USER", 'loploz6x_admin');
-define("DB_PASS", 'password');
-define("DB_NAME", 'loploz6x_webstore');
+define("DB_USER", 'b9502f77308eab');
+define("DB_PASS", '83ec21e9');
+define("DB_NAME", 'heroku_b53c6be955ed9de');
 
 
 try {

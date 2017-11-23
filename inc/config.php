@@ -1,9 +1,9 @@
 <?php
 //Connect to DB PDO
 define("DB_HOST", 'localhost');
-define("DB_USER", 'root');
+define("DB_USER", 'loploz6x_admin');
 define("DB_PASS", 'password');
-define("DB_NAME", 'webstore');
+define("DB_NAME", 'loploz6x_webstore');
 
 
 try {

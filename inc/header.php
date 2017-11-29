@@ -118,11 +118,11 @@ function selectMenu($num, $quantity = '1') {
 	<div class="container">
 		<div class="left-col">
 			<ul>
-				<li><a href="phones.php" <?php echo selectedClass('phones'); ?>><i class="fa fa-mobile" aria-hidden="true"></i> Phones</a></li>
-				<li><a href="computers.php" <?php echo selectedClass('computers'); ?>><i class="fa fa-laptop" aria-hidden="true"></i> Computers</a></li>
-				<li><a href="monitors.php" <?php echo selectedClass('monitors'); ?>><i class="fa fa-desktop" aria-hidden="true"></i> Monitors</a></li>
-				<li><a href="cameras.php" <?php echo selectedClass('cameras'); ?>><i class="fa fa-camera" aria-hidden="true"></i> Cameras</a></li>
-				<li><a href="accesorys.php" <?php echo selectedClass('accesorys'); ?>><i class="fa fa-cog" aria-hidden="true"></i> Accesories</a></li>
-				<li><a href="others.php" <?php echo selectedClass('others'); ?>><i class="fa fa-cubes" aria-hidden="true"></i> Other</a></li>
+				<li><a href="products.php?category=phone" <?php echo selectedClass('phones'); ?>><i class="fa fa-mobile" aria-hidden="true"></i> Phones</a></li>
+				<li><a href="products.php?category=computer" <?php echo selectedClass('computers'); ?>><i class="fa fa-laptop" aria-hidden="true"></i> Computers</a></li>
+				<li><a href="products.php?category=monitor" <?php echo selectedClass('monitors'); ?>><i class="fa fa-desktop" aria-hidden="true"></i> Monitors</a></li>
+				<li><a href="products.php?category=camera" <?php echo selectedClass('cameras'); ?>><i class="fa fa-camera" aria-hidden="true"></i> Cameras</a></li>
+				<li><a href="products.php?category=accessory" <?php echo selectedClass('accesorys'); ?>><i class="fa fa-cog" aria-hidden="true"></i> Accesories</a></li>
+				<li><a href="products.php?category=other" <?php echo selectedClass('others'); ?>><i class="fa fa-cubes" aria-hidden="true"></i> Other</a></li>
 			</ul>
 		</div>

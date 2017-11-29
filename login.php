@@ -37,7 +37,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 	//Begin register process
 	if(empty($email_err) && empty($password_err)) {
-		$account->login($email, $password);
+		// $account->login($email, $password);
 		session_start();
 		$_SESSION['email'] = $email;
 		header("Location: index.php");

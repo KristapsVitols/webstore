@@ -13,7 +13,7 @@ function ajaxCall() {
 				let result = `<div class='display-message found'><i class='fa fa-check' aria-hidden='true'></i> ${newData.length} product/-s found matching that name</div><ul>`;
 				newData.forEach(function(item) {
 					result += `<li>
-									<span class='product-category'><a href=${item.category.toLowerCase()}.php>${item.category}</a></span>
+									<span class='product-category'><a href=products.php?category=${item.category.toLowerCase()}>${item.category}</a></span>
 									<a href='product.php?id=${item.id}'><img src='assets/images/product-1.png' alt='product image'></a>
 									<a href='product.php?id=${item.id}'><span class='product-name'>${item.make} ${item.model}</span></a>
 									<span class='price'>Price: ${item.price}</span>
